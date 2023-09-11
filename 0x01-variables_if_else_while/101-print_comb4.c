@@ -33,18 +33,18 @@ int main(void)
 
 					if (digit1 + digit2 + digit3 != 24)
 					{
-						putcahr(',');
+						putchar(',');
 						putchar(' ');
 
 					}
 				}
-				digit3++
+				digit3++;
 			}
-			digit2++
+			digit2++;
 
 
 		}
-		digit1++
+		digit1++;
 	}
 	putcahr('\n');
 
