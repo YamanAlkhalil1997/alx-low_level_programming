@@ -46,7 +46,7 @@ int main(void)
 		}
 		digit1++;
 	}
-	putcahr('\n');
+	putchar('\n');
 
 	return (0);
 }
