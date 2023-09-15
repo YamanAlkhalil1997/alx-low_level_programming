@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * print_line - print a straight line
  *
- * Description: print all single digit numbers
- *
- * Return: Always 0 (Success)
+ * @n: is the number of times the _ character
+ *	should be printed
 */
 
-int print_line(int n)
+void print_line(int n)
 {
 	int lnChr;
 
