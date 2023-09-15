@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isuupper - check if c is upper
+ * _isdigit - check if c is upper
  *
  * @c imput for alphabet
  *
