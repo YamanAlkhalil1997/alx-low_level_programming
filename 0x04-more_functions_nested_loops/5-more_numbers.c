@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * main - entry point
- *
- * Description: print all single digit numbers
+ * more_numbers - print 0 - 14 ten items and you
+ * 		can only use _putchart three items
  *
  * Return: Always 0 (Success)
 */
