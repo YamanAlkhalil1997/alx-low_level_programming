@@ -2,12 +2,12 @@
 
 /**
  * more_numbers - print 0 - 14 ten items and you
- * 		can only use _putchart three items
+ *		can only use _putchart three items
  *
  * Return: Always 0 (Success)
 */
 
-int more_numbers(void)
+void more_numbers(void)
 {
 	int num, row, count;
 
@@ -23,6 +23,6 @@ int more_numbers(void)
 			}
 			_putchar(num + 48);
 		}
-		_putchar ('\n');
+		_putchar('\n');
 	}
 }
