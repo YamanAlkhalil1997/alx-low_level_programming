@@ -3,7 +3,8 @@
 /**
  * puts_half - print second
  * @str: char array string type
- * description: if odd number of chars print length */
+ * description: if odd number of chars print length 
+*/
 
 void puts_half(char *str)
 {
