@@ -34,6 +34,7 @@ void printHexes(char *b, int start, int end)
 		i++;
 	}
 }
+
 /**
  * printASCII - print ascil values for string b,
  * formatted to replace nonprintable chars with '.'
