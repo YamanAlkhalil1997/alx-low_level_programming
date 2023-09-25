@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * print_diagums - description
  * @a: 2d array of int types
