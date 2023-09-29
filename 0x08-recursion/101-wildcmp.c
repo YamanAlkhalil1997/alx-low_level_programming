@@ -6,7 +6,7 @@
  * asd
  * asd
 */
-char *move_past_star(ch *s2)
+char *move_past_star(char *s2)
 {
 	if (*s2 == '*')
 		return (move_past_star(s2 + 1));
@@ -26,7 +26,7 @@ int inception(char *s1, char *s2)
 	int ret = 0;
 
 	if (*s1 == 0)
-		return (0)
+		return (0);
 	if (*s1 == *s2)
 		ret += wildcmp(s1 + 1, s2 + 1);
 		return (ret);
@@ -41,7 +41,7 @@ int walidcmp(char *s1, char *s2)
 {
 	int ret = 0;
 
-	if (!*s1 && *s2 == '*' && !*move_past_stat(s2))
+	if (!*s1 && *s2 == '*' && !*move_past_star(s2))
 		return (1);
 	if (*s1 == *s2)
 	{
