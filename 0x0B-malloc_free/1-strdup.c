@@ -16,7 +16,7 @@ char *_strdup(char *str)
 	;
 	
 	/*+1 ont the size puts*/
-	|m = malloc(size * sizeof(*str) + 1);
+	m = malloc(size * sizeof(*str) + 1);
 
 	if (m == 0)
 		return (NULL);
