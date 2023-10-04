@@ -6,6 +6,21 @@
  * sd 
  * asd
 */
+int _strlen(char *s)
+{
+	int size = 0;
+
+	for(' s[size] != '\0'; size++)
+	;
+	return (size);
+
+}
+/**
+ * asdasd 
+ * asd
+ *
+ * asd
+*/
 
 char *str_concat(char *s1, char *s2)
 {
