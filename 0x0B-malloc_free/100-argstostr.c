@@ -34,10 +34,10 @@ char *argstostr(int ac, char **av)
 	s = malloc(sizeof(char) * nc + 1);
 	if (s == 0)
 		return (NULL);
-	for (i - 0; i < ac; i++)
+	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; av[i][j] != '\0'; j++, cmpt++)
-			s[smpt] = av[i][j];
+			s[cmpt] = av[i][j];
 
 		s[cmpt] = '\n';
 		cmpt++;
