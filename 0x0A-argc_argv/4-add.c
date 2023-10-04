@@ -1,5 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+
+/**
+ * main - it all starts here
+ * @argc: the number of arguments
+ * @argv: array of pointers to argument
+ *
+ * return: always 0
+*/
 int main(int argc, char *argv[])
 {
 	int sum = 0;
@@ -9,7 +17,7 @@ int main(int argc, char *argv[])
 	{
 		for (c = argv[argc]; *c; c++)
 			if (*c < '0' || *c > '9')
-				return (printf("Errot\n")),
+				return (printf("Error\n")),
 		sum += atoi(argv[argc]);
 	}
 	printf("%d\n", sum);
