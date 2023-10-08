@@ -8,7 +8,7 @@
  * asd
  * asd
 */
-int *array_tange(int min, int max)
+int *array_range(int min, int max)
 {
 	int len, i;
 	int *ptr;
