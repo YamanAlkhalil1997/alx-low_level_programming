@@ -1,52 +1,39 @@
 #include "variadic_functions.h"
-
 /**
- * asd asd asd
- * as
- * d
- * asd
- * a
- * sd
- * a
+ * format_char - formats character
+ * @separator: the stirng separator
+ * @ap: argument pointer
 */
 void format_char(char *separator, va_list ap)
 {
 	printf("%s%c", separator, va_arg(ap, int));
 }
 /**
- * asd
- * a
- * sd
- *
- * asd
- * a
-*/
-void format_int(char *separator, va_list ap)
+ * format_int - formats integer
+ * @separator: the string sepraator
+ * @ap: argument pointer
+ */
+
+void format_int(char * separator, va_list ap)
 {
 	printf("%s%d", separator, va_arg(ap, int));
 }
 
 /**
- * asd asd
- * as
- * d
+ * asd
+ * asd
+ * asd
  * asd
 */
-void format_float(char *separator, va_list ap)
+
+void foramt_float(char *separator, va_list ap)
 {
 	printf("%s%f", separator, va_arg(ap, double));
 }
-
 /**
- *
+ * fora asdasd
  * asd
- *
- * as
- * d
- * as
- * d
- * as
- * d
+ *asdas
 */
 
 void format_string(char *separator, va_list ap)
@@ -54,18 +41,17 @@ void format_string(char *separator, va_list ap)
 	char *str = va_arg(ap, char *);
 
 	switch ((int)(!str))
-		case 1:
-			str = "(nil)";
-
+	case 1:
+		str  = "(nil)";
+	
 	printf("%s%s", separator, str);
 }
 /**
- * asd asd
- *
- * asd
- * a
- * sd
- * asd
+ * sad asd
+ * as
+ * d
+ * as
+ * as
 */
 void print_all(const char * const format, ...)
 {
