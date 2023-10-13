@@ -20,7 +20,7 @@ void format_char(char *separator, va_list ap)
  * asd
  * a
 */
-void format_int(char *separator, va_arg(ap, int))
+void format_int(char *separator, va_list(ap, int))
 {
 	printf("%s%d", separator, va_arg(ap, int));
 }
@@ -34,6 +34,19 @@ void format_float(char *separator, va_list ap)
 {
 	printf("%s%f", separator, va_arg(ap, double));
 }
+
+/**
+ *
+ * asd
+ *
+ * as
+ * d
+ * as
+ * d
+ * as
+ * d
+*/
+
 void format_string(char *separator, va_list ap)
 {
 	char *str = va_arg(ap, char *);
@@ -41,6 +54,7 @@ void format_string(char *separator, va_list ap)
 	switch ((int)(!str))
 		case 1;
 			str = "(nil)";
+
 	printf("%s%s", separator, str);
 }
 /**
@@ -67,7 +81,7 @@ void print_all(const char * const format, ...)
 	va_start(ap, format);
 	while (format && format[i])
 	{
-		i = 0;
+		j = 0;
 		while (tokens[j].token)
 		{
 			if (format[i] == tokens[j].token[0])
