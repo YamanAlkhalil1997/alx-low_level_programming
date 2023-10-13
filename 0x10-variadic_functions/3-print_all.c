@@ -20,7 +20,7 @@ void format_char(char *separator, va_list ap)
  * asd
  * a
 */
-void format_int(char *separator, va_list(ap, int))
+void format_int(char *separator, va_list ap)
 {
 	printf("%s%d", separator, va_arg(ap, int));
 }
