@@ -30,6 +30,10 @@ void format_int(char *separator, va_arg(ap, int))
  * d
  * asd
 */
+void format_float(char *separator, va_list ap)
+{
+	printf("%s%f", separator, va_arg(ap, double));
+}
 void format_string(char *separator, va_list ap)
 {
 	char *str = va_arg(ap, char *);
